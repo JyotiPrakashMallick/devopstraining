@@ -6,3 +6,6 @@ Key Contributers
  1. Murali
  2. Manoj
  3. Bhargav
+
+#Task List
+For task list please navigate to the task folder and check the task given to you people.
