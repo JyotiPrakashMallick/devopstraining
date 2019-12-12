@@ -1,8 +1,8 @@
 This file will hold all the task list that we will be working further
 
-+-------------------------------------------+
-| DT: 12/12/2019 - Shell Scripting          |
-+-------------------------------------------+
++-------------------------------------------------+
+| DT: 12/12/2019 - Shell Scripting  [Session 1]   |
++-------------------------------------------------+
 Task 1.
    [i] 3 branches for each branch for each of you.
   [ii] Write a shell script for finding the greatest number in give 3 values. 
