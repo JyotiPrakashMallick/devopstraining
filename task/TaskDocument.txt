@@ -1,7 +1,0 @@
-This folder belongs to all the task give to all
-
-+-------------------------------------------+
-| DT: 12/12/2019 - Shell Scripting          |
-+-------------------------------------------+
-Task 1.
-     
