@@ -7,4 +7,16 @@ Task 1.
    [i] 3 branches for each branch for each of you.
   [ii] Write a shell script for finding the greatest number in give 3 values. 
  [iii] Write a shell script for finding the identical string in a give 3 string.
-  [iv] Push the changes to master after get reviewed from one person atleast.
+  [iv] Push the changes to master after get reviewed from one person at-least.
+
++-------------------------------------------------+
+| DT: 12/12/2019 - Shell Scripting  [Session 2]   |
++-------------------------------------------------+
+Task 2:
+   i.  read a value from user 
+  ii.  run the loop for n times (n will be from the user) and print "I am good in shell script"
+ iii.  create a case with input from the user 
+  iv.  write a shell script which will have both `for` and `case` loop
+   v.  write a shell script which will have `for`, `case` and `if`
+  vi.  write a shell script which will accept one string and one integer from the user and will compare 
+       with another set of integer already declared in the shell script 
