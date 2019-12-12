@@ -1,10 +1,10 @@
-This folder belongs to all the task give to all
+This file will hold all the task list that we will be working further
 
 +-------------------------------------------+
 | DT: 12/12/2019 - Shell Scripting          |
 +-------------------------------------------+
 Task 1.
-   [i] 3 branches {one branch for each of you.....
-  [ii] Write a shell script for finding the greatest number in give 3 values 
- [iii] Write a shell script for finding the identical string in a give 3 string
-  [iv] Push the changes to master after get reviewed from one person atleast 
+   [i] 3 branches for each branch for each of you.
+  [ii] Write a shell script for finding the greatest number in give 3 values. 
+ [iii] Write a shell script for finding the identical string in a give 3 string.
+  [iv] Push the changes to master after get reviewed from one person atleast.
