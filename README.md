@@ -8,4 +8,6 @@ Key Contributers
 - Bhargav
 
 # Task List
-For everyday task list please navigate to the *__tasklist__* folder and check the task given to you people.
+For everyday task list please navigate to the 
+*__tasklist__* 
+folder and check the task given to you people.
