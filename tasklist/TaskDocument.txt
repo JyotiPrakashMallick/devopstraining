@@ -1,0 +1,65 @@
+This file will hold all the task list that we will be working further
+
++-------------------------------------------------+
+| DT: 12/12/2019 - Shell Scripting  [Session 1]   |
++-------------------------------------------------+
+Task 1.
+   [i] 3 branches for each branch for each of you.
+  [ii] Write a shell script for finding the greatest number in give 3 values. 
+ [iii] Write a shell script for finding the identical string in a give 3 string.
+  [iv] Push the changes to master after get reviewed from one person at-least.
+
++-------------------------------------------------+
+| DT: 12/12/2019 - Shell Scripting  [Session 2]   |
++-------------------------------------------------+
+Task 2:
+   [i]  Read a variable from user (it must a commandline input) 
+  [ii]  Run the loop for n times (n will be from the user) and print "I am good in shell script" n times
+ [iii]  Create a `case` with condition value should be given by the user as an input. 
+  [iv]  Write a shell script which will have both `for` and `case` loop
+   [v]  Write a shell script which will have `for`, `case` and `if`
+  [vi]  Write a shell script which will accept one string and one integer from the user and will compare with another set of integer already declared in the shell script 
+  
++-------------------------------------------------+
+| DT: 12/12/2019 - Shell Scripting  [Session 3]   |
++-------------------------------------------------+
+Task 3:
+   [i]. Check Disk Space and print the output like in the following pattern :
+		    for red color use : echo -e "33[32m <your string>"
+			for yellow color use : echo -e "33[34m <your string>"
+			for green color use : echo -e "33[33m <your string>"
+		(1) if the disk space is more the 90 then it will print the message in red
+		(2) if the disk space is in between 50 to 90 then it will print the message in yellow
+		(3) if the disk space is below 50 then it will print the message in green.
+
+
+
++-------------------------------------------------------+
+| DT: 12/12/2019 - Power-Shell Scripting  [Session 3]   |
++-------------------------------------------------------+
+
+#1.Find the greatest among the three numbers, but the number has to be entered from the user
+#2.Find the same name inside an array of strings.
+#3.Declare three arrays:
+   #i.  First array contain only the name of employee
+   #ii. The second array will contain the phone number
+   #iii.The third array will contain the address
+   #iv. find the employee name, phone, address but the name should be entered 
+        #from the terminal, if there is no record then it will print an
+        #warning message
+#4.Declare an empty array and add all the variables input from the user find the length of the array. 
+
+
++-------------------------------------------------------+
+| DT: 22/12/2019 - Real Life Task  [Session 1]   	|
++-------------------------------------------------------+
+
+#1. There is a Jenkins server running on my local host and which consume some space on my local drive. Please write a shell and power-shelll script to perform the following 
+    i. Find the service is running on the local machine by a get call to URL http://localhost:8080 (this is URL where my Jenkins service is running).
+    ii.Now check the disk utilization of the Jenkins.
+           a. If the disk utilization is more than 100MB, then print code red, and do the following steps
+	      i. Stop the Jenkins service.
+	     ii. Remove all the files inside the log folder.
+	    iii. Start the Jenkins server and verify the service started or not.
+    	   b. If the disk utilization is less than 100MB then print code green and do nothing.
+ 
