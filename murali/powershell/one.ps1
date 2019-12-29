@@ -4,10 +4,13 @@ $b = Read-Host -promt 'input your second number'
 
 $c = Read-Host -promt 'input your Third number'
  
- if($a -gt $b -and $a -gt $c){
+if($a -gt $b -and $a -gt $c){
      Write-Host "First number is greater"
- } elseif($b -gt $a -and $b -gt $c ){
+ } 
+elseif($b -gt $a -and $b -gt $c ){
      Write-Host "second bumber is greater"
- } else($c -gt $b -and $c -gt $a){
+ } 
+else{
      Write-Host ("third number is greater")
  }
+
