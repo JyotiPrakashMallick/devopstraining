@@ -67,11 +67,10 @@ Task 3:
 | DT: 22/31/2019 - Real Life Task  [Session 2]   	|
 +-------------------------------------------------------+
 1. I have a application which is running on a AWS machine and I want to check how many user are accessing my web application?
-   i. So I have and application for this I require a. Nodes service application or anything. To suffice this we will take a machine may be local machine.
-  ii. So job is to connect to the local machine.
- iii. Count the number of user connected to it.
-  iv. And there Status like online and offline or idle.
-   v. Put them in an array and print it.  [This job need to be written in both Shell-Script & Power-shell]
+   i. So I need an application for this. To suffice this we will take another parameter which is count the number of user connected to my local machine.
+  ii. So job is to count the number of user connect to any local machine.
+ iii. And there Status like online and offline or idle.
+  iv. Put them in an array and print it.  [This job need to be written in both Shell-Script & Power-shell]
 
 2. Automatic repository clone up to local machine to get the latest update in my local machine.
    i. A program which will cone the latest repository from GitHub to my local machine.
