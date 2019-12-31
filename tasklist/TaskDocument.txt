@@ -13,7 +13,7 @@ Task 1.
 | DT: 12/12/2019 - Shell Scripting  [Session 2]   |
 +-------------------------------------------------+
 Task 2:
-   [i]  Read a variable from user (it must a commandline input) 
+   [i]  Read a variable from user (it must a command-line input) 
   [ii]  Run the loop for n times (n will be from the user) and print "I am good in shell script" n times
  [iii]  Create a `case` with condition value should be given by the user as an input. 
   [iv]  Write a shell script which will have both `for` and `case` loop
@@ -54,7 +54,7 @@ Task 3:
 | DT: 22/12/2019 - Real Life Task  [Session 1]   	|
 +-------------------------------------------------------+
 
-#1. There is a Jenkins server running on my local host and which consume some space on my local drive. Please write a shell and power-shelll script to perform the following 
+1. There is a Jenkins server running on my local host and which consume some space on my local drive. Please write a shell and power-shell script to perform the following 
     i. Find the service is running on the local machine by a get call to URL http://localhost:8080 (this is URL where my Jenkins service is running).
     ii.Now check the disk utilization of the Jenkins.
            a. If the disk utilization is more than 100MB, then print code red, and do the following steps
@@ -63,3 +63,22 @@ Task 3:
 	    iii. Start the Jenkins server and verify the service started or not.
     	   b. If the disk utilization is less than 100MB then print code green and do nothing.
  
++-------------------------------------------------------+
+| DT: 22/31/2019 - Real Life Task  [Session 2]   	|
++-------------------------------------------------------+
+1. I have a application which is running on a AWS machine and I want to check how many user are accessing my web application?
+   i. So I have and application for this I require a. Nodes service application or anything. To suffice this we will take a machine may be local machine.
+  ii. So job is to connect to the local machine.
+ iii. Count the number of user connected to it.
+  iv. And there Status like online and offline or idle.
+   v. Put them in an array and print it.  [This job need to be written in both Shell-Script & Power-shell]
+
+2. Automatic repository clone up to local machine to get the latest update in my local machine.
+   i. A program which will cone the latest repository from GitHub to my local machine.
+  ii. Handle the existing folder by renaming them followed by date.
+ iii. Also need to validate that the same folder name is exist, if exist then only repeat the step 2.
+  iv. Delete the folder which are 1 month old. [This job need to be written in both Shell-Script & Power-shell]
+
+3. How many pipeline failure and success is there per day. And I want to keep the track weekly as well.
+   i. There are few pipelines which are running for some purpose.
+  ii. Now write a job to calculate how many job are successful, failed and idle or cancelled.[This job need to be written in both Shell-Script & Power-shell]
