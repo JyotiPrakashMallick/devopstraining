@@ -93,6 +93,30 @@ function install_Editors(){
         ;;
         "2") 
                 echo "Installing notepad++ in the target machines"
+                pre_check(){
+                echo -ne '\n' | sudo apt-get install snapd snapd-xdg-open
+	                if [ $? 0 ]
+	                then 
+	                echo "Pre check complete !!!"
+                    fi
+                }
+
+                notepad_plus(){
+	            sudo snap install notepad-plus-plus
+                }
+                $snap_validator=$(apt list 2>/dev/null | grep snapd-xdg-open | sed 4q)
+                if [ $snap_validator != "installed" ]
+                   then
+	               echo "The package is installed"
+	               notepad_plus
+                   else
+	               echo "Installing the pre-requisists package first "
+                   pre_check
+	                if [ $? -eq 0 ]
+	                then
+	                notepad_plus
+	                fi
+                fi
         ;;
         *) 
                 echo "No option provided so exiting with an error"
