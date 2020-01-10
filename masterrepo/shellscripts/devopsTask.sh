@@ -1,4 +1,10 @@
 #!/bin/sh
+
+host_address=$(remote_host_address) #this will hold the number of host address from the CI tool
+user_name=$(User_name)
+Password=$(Password)
+source ./remoteConnection.sh 
+
 function install_os_updates(){
     echo "Installing OS updates"
         sudo apt-get update
@@ -95,7 +101,7 @@ function install_Editors(){
                 echo "Installing notepad++ in the target machines"
                 pre_check(){
                 echo -ne '\n' | sudo apt-get install snapd snapd-xdg-open
-	                if [ $? 0 ]
+	                if [ $? -eq 0 ]
 	                then 
 	                echo "Pre check complete !!!"
                     fi
@@ -203,15 +209,14 @@ driver(){
 
 #Driver function which will drive all the other operation
 function trigger_Execution(){
-    install os updates
-    install_os_updates
-    add_groups
-    add_User
-    install_third_party_Compressions
-    install_Editors
-    git_Utility
-    download_Extract
-
+    get_connection $host_address $User_name $Password
+        install os updates
+        add_groups
+        add_User
+        install_third_party_Compressions
+        install_Editors
+        git_Utility
+        download_Extract
 }
 
-trigger_Execution
+trigger_Execution $1 $2 $3
