@@ -90,3 +90,15 @@ Task 3:
 1. Everyday people push code and raise pull request. The task is to build a script which will retrieve all the Pull request raised and how many merged. Also want the number of pull request raised by individual team member.
    i. Want this script both on powershell and shell script based on `Modular Framework`.
   ii. Print the result in a tabular format.
+  
+  
++-------------------------------------------------------+
+| DT: 08/02/2020 - Ansible Task  				  		|
++-------------------------------------------------------+
+Task 1: Write a sensible playbook which have following task 
+           (i) Get the current working directory
+          (ii) Get the disk size
+         (iii) Run a shell script to print hello world
+Task 2: Write a sensible playbook which have following task 
+          (i)  Install nginx in two different machine
+         (ii)  Make a curl command to the nginx url
