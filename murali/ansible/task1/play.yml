@@ -1,0 +1,24 @@
+--- 
+- 
+  connection: local
+  hosts: localhost
+  name: "Task for ansible"
+  tasks: 
+    - 
+      command: pwd
+      name: "current working directory"
+      register: currentdirectory
+    - 
+      command: "df -h"
+      name: "Disk space of current working directory"
+      register: disksize
+    - 
+      name: "Execute script on server"
+      register: script
+      script: hello.sh
+    - 
+      debug: var=currentdirectory.stdout_lines
+    - 
+      debug: var=disksize.stdout_lines
+    - 
+      debug: var=script.stdout_lines
